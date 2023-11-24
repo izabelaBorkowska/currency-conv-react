@@ -53,18 +53,18 @@
 
 
 .form__result {
-    border: #5c0120;
-    font-size: x-large;
-    background-color: #780e31;
-    color: wheat;
-    text-align: center;
-     margin: auto;
-    padding: 7px;
-    border: 1px solid;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-  
+  border: #5c0120;
+  font-size: x-large;
+  background-color: #780e31;
+  color: wheat;
+  text-align: center;
+  margin: auto;
+  padding: 7px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 .form__button:hover {
   background-color: #680829;
 }

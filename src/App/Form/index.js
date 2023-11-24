@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { currencies } from "../currencies";
 import { Result } from "./Result";
 import "./style.css";
@@ -53,8 +53,10 @@ export const Form = ({ calculateResult, result }) => {
           </button>
         </p>
 
-    <div className='form__result'>Result:
-         <Result result={result} /></div>
+        <div className="form__result">
+          Result:
+          <Result result={result} />
+        </div>
       </fieldset>
     </form>
   );
