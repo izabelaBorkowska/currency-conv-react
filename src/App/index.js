@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { currencies } from "./currencies";
 import { Form } from "./Form";
 import "./App.css";
 
 function App() {
-  const [result, setResult] = useState();
+  const [result, setResult] = useState(null);
 
   const calculateResult = (currency, amount) => {
     const rate = currencies.find(({ short }) => short === currency).rate;
